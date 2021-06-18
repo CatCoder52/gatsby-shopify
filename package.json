@@ -1,0 +1,46 @@
+{
+  "name": "fashopbd",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Gatsby website using the latest Shopify plugins showcasing a store with product overview, individual product pages, and a cart.",
+  "author": "SyedSimanta <syed.simanta10@gmail.com>",
+  "license": "0BSD",
+  "keywords": [
+    "gatsby",
+    "shopify",
+    "theme",
+    "ecommerce",
+    "e-commerce"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@sindresorhus/slugify": "^2.1.0",
+    "debounce": "^1.2.1",
+    "gatsby": "^3.7.2",
+    "gatsby-plugin-gatsby-cloud": "^2.7.1",
+    "gatsby-plugin-google-analytics": "^3.7.1",
+    "gatsby-plugin-image": "^1.7.1",
+    "gatsby-plugin-react-helmet": "^4.7.1",
+    "gatsby-plugin-sharp": "^3.7.1",
+    "gatsby-plugin-sitemap": "^4.3.1",
+    "gatsby-source-filesystem": "^3.7.1",
+    "gatsby-source-shopify": "rc",
+    "gatsby-transformer-sharp": "^3.7.1",
+    "isomorphic-fetch": "^3.0.0",
+    "lodash.debounce": "^4.0.8",
+    "lodash.isequal": "^4.5.0",
+    "query-string": "^7.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0",
+    "shopify-buy": "^2.11.0",
+    "urql": "^2.0.3"
+  }
+}
