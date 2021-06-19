@@ -24,6 +24,24 @@ module.exports = {
         shopifyConnections: ["collections"],
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `gatsbyShop`,
+        short_name: `gatsbyShop`,
+        start_url: `/`,
+        background_color: `#212121`,
+        theme_color: `#f39ca9`,
+        display: `standalone`,
+        icon: `/favicon-32x32.png`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/`, `/products/*`],
+      },
+    },
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",

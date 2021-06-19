@@ -9,6 +9,11 @@
     <img alt="Shopify" src="https://cdn.shopify.com/shopifycloud/web/assets/v1/2217fb04df073033ccce8d125b0ea020.svg" width="60" />
 </p>
 
+<p align="center">
+  <a href="https://gatsbyshopify.netlify.app/">
+ Visit: https://gatsbyshopify.netlify.app
+  </a>
+</p>
 
 
 ## 🚀 Quick start
