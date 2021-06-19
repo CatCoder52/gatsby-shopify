@@ -36,12 +36,8 @@ module.exports = {
         icon: `/favicon-32x32.png`,
       },
     },
-    {
-      resolve: `gatsby-plugin-offline`,
-      options: {
-        precachePages: [`/`, `/products/*`],
-      },
-    },
+
+    "gatsby-plugin-offline",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
