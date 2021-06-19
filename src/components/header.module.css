@@ -79,10 +79,11 @@
 }
 
 .logoItem {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .logoText {
-    font-size: larger;
-    font-weight: 300;
+  font-size: larger;
+  font-weight: 300;
 }
+
