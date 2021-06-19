@@ -12,6 +12,8 @@ import {
   logo as logoCss,
   searchButton,
   nav,
+  logoItem,
+  logoText,
 } from "./header.module.css"
 
 export function Header() {
@@ -26,9 +28,14 @@ export function Header() {
   return (
     <div className={container}>
       <header className={header}>
-        <Link to="/" className={logoCss}>
-          <Logo />
-        </Link>
+        <div className={logoItem}>
+          <Link to="/" className={logoCss}>
+            <Logo />
+          </Link>
+          <Link to="/">
+            <p className={logoText}>GATSHOP</p>
+          </Link>
+        </div>
         <Navigation className={nav} />
         <Link to="/search" className={searchButton}>
           <SearchIcon />

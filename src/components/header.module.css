@@ -77,3 +77,12 @@
 .searchButton[aria-current="page"] {
   color: var(--primary);
 }
+
+.logoItem {
+    display: flex;
+    align-items: center;
+}
+.logoText {
+    font-size: larger;
+    font-weight: 300;
+}
