@@ -16,14 +16,14 @@ export function Navigation({ className }) {
 
   return (
     <nav className={[navStyle, className].join(" ")}>
-      <Link
+      <Linkgatsbyjs
         key="All"
         className={navLink}
         to="/search"
         activeClassName={activeLink}
       >
         All products
-      </Link>
+      </Linkgatsbyjs>
       {productTypes.map((name) => (
         <Link
           key={name}

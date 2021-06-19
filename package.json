@@ -5,6 +5,7 @@
   "description": "A Gatsby website using the latest Shopify plugins showcasing a store with product overview, individual product pages, and a cart.",
   "author": "SyedSimanta <syed.simanta10@gmail.com>",
   "license": "0BSD",
+  "github": "https://github.com/syedsimanta03/fashop-gatsby-shopify",
   "keywords": [
     "gatsby",
     "shopify",

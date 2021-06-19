@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     siteTitle: "gatsby-shopify",
     siteTitleDefault: "Gatsbyjs",
-    siteUrl: "https://gaysbyjs.myshopify.com",
+    siteUrl: "https://gatsbyshopify.netlify.app",
     hrefLang: "en",
     siteDescription:
       "A Gatsby store with product overview, individual product pages, and a cart.",
