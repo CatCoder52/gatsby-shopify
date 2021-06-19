@@ -34,3 +34,8 @@
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. 
 
+<p align="center">
+  <a href="https://www.gatsbyjs.com">
+  </a>
+    <img alt="Shopify" src="./static/score.png" />
+</p>
