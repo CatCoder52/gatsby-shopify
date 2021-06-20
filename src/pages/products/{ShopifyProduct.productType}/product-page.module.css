@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr;
   column-gap: var(--space-3xl);
+  align-items: center;
 }
 
 .container {
@@ -17,6 +18,7 @@
 
 .productDescription {
   font-size: var(--text-prose);
+  max-width: 600px;
 }
 
 .productImageWrapper {
@@ -162,6 +164,7 @@
   display: grid;
   grid-template-columns: max-content 1fr;
   align-items: baseline;
+  margin-top: 4%;
 }
 
 @media (min-width: 640px) {

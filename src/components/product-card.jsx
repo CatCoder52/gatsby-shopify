@@ -34,7 +34,7 @@ export function ProductCard({ product, eager }) {
       storefrontImageData = getShopifyImage({
         image: storefrontImage,
         layout: "fixed",
-        width: 200,
+        width: 300,
         height: 200,
       })
     } catch (e) {

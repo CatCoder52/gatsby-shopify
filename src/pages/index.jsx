@@ -21,11 +21,12 @@ export default function IndexPage({ data }) {
   return (
     <Layout>
       <Sliders />
-      <Itemnav/>
-      <Features/>
+      <Itemnav />
+      <Features />
+      <h3 className="title-color">#Newly Added Items</h3>
       <ProductListing products={data.shopifyCollection.products} />
-      <Testimonials/>
-      <Brands/>
+      <Testimonials />
+      <Brands />
     </Layout>
   )
 }
