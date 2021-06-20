@@ -39,3 +39,5 @@
   </a>
     <img alt="Shopify" src="./static/score.png" />
 </p>
+
+***I am using free domain. Use custom/premium domain to increase performance score!***

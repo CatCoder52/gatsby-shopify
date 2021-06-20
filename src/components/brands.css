@@ -1,0 +1,16 @@
+.brands {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5%;
+  max-width: 100%;
+  opacity: 0.5;
+  filter: grayscale(1);
+  transition: all 0.3s linear 0s;
+  padding: 1% 0;
+  background: #fcf6f6;
+}
+
+hr {
+  color: #fefcfc;
+}

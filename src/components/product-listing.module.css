@@ -4,4 +4,17 @@
   place-items: center;
   gap: var(--size-gutter-raw);
   padding: 0 var(--size-gutter-raw);
+    margin: 4% 6%;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    background: linear-gradient(
+-96deg
+,#fd3d6b 0,#fd7863 98%,#f3dfe0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
 }

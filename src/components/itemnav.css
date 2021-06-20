@@ -1,0 +1,21 @@
+.single-col {
+  flex: 0 0 auto;
+}
+
+.single-col .single-box {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.single-col .single-box img {
+  transition: all 0.3s ease 0s;
+}
+.single-col .single-box:hover img {
+  transform: scale(1.1) rotate(3deg);
+}
+
+@media only screen and (max-width:800px) {
+  .single-col .single-box:hover img  {
+    width: 100vw;
+  }
+}

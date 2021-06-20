@@ -10,3 +10,20 @@ body {
 .gatsby-image-wrapper [data-main-image] {
   border-radius: var(--radius-sm);
 }
+
+.mb-4xl {
+  margin-bottom: var(--space-4xl);
+}
+
+.box-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 6%;
+    gap: 1%;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}

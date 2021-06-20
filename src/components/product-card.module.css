@@ -3,6 +3,8 @@
   cursor: pointer;
   text-decoration: none;
   padding-bottom: var(--space-md);
+  box-shadow: var(--shadow);
+  margin-bottom: 1rem;
 }
 
 .productImageStyle {

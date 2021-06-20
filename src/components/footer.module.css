@@ -6,6 +6,7 @@
   text-align: center;
   color: var(--text-color-secondary);
   margin-top: var(--space-3xl);
+  background: #152040;
 }
 
 .logos {
@@ -31,11 +32,12 @@
 }
 
 .footerNavListItem {
-  align-items: center;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   flex: 0 0 100%;
-  white-space: nowrap;
+  flex-wrap: wrap;
+  gap: 1%;
 }
 
 .links ul {

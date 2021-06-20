@@ -1,8 +1,12 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 import { Layout } from "../components/layout"
+import Sliders from "../components/sliders"
 import { ProductListing } from "../components/product-listing"
-
+import Itemnav from "../components/itemnav"
+import Features from './../components/features';
+import Testimonials from "../components/testimonials"
+import Brands from "../components/brands"
 
 export const query = graphql`
   query {
@@ -16,7 +20,12 @@ export const query = graphql`
 export default function IndexPage({ data }) {
   return (
     <Layout>
+      <Sliders />
+      <Itemnav/>
+      <Features/>
       <ProductListing products={data.shopifyCollection.products} />
+      <Testimonials/>
+      <Brands/>
     </Layout>
   )
 }

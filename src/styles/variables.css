@@ -12,7 +12,12 @@
   --green-80: #088413;
   --green-50-rgb: 55, 182, 53;
   --white: #ffffff;
-
+  --Moderate-violet: #62a6f4;
+  --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(0, 0%, 81%);
+  --Light-grayish-blue: hsl(210, 46%, 95%);
   /* radii */
   --radius-sm: 4px;
   --radius-md: 8px;
@@ -24,7 +29,7 @@
   --space-lg: 16px;
   --space-xl: 20px;
   --space-2xl: 24px;
-  --space-3xl: 48px;
+  --space-4xl: 100px;
 
   /* line-height */
   --solid: 1;
@@ -50,6 +55,7 @@
   --text-xl: 20px;
   --text-2xl: 24px;
   --text-3xl: 32px;
+  --text-4xl: 42px;
 
   /* role-based tokens */
 
@@ -114,3 +120,4 @@
     --product-grid: repeat(4, 1fr);
   }
 }
+

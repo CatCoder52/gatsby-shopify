@@ -14,6 +14,7 @@
   grid-template-areas: "logo nada searchButton cartButton" "navHeader navHeader navHeader navHeader";
   align-items: center;
   background-color: var(--background);
+  height: 8vh;
 }
 
 .header::after {
@@ -41,7 +42,7 @@
   display: flex;
   grid-area: logo;
   height: 100%;
-  width: 100%;
+  margin-left: 50%;
   align-items: center;
   justify-content: center;
   color: var(--text-color-secondary);
@@ -68,6 +69,7 @@
   height: var(--size-input);
   display: grid;
   place-items: center;
+  margin-left: auto;
 }
 
 .searchButton:hover {
@@ -86,4 +88,3 @@
   font-size: larger;
   font-weight: 300;
 }
-
