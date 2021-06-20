@@ -7,7 +7,7 @@ const Features = () => {
       <>
         <div className="single-feature">
           <div className="feature-icon">
-            <img src="1.png" alt />
+            <img src="1.png" alt="feature" />
           </div>
           <div className="feature-content">
             <h4 className="title">Free Shipping</h4>
@@ -16,7 +16,7 @@ const Features = () => {
         </div>
         <div className="single-feature">
           <div className="feature-icon">
-            <img src="2.png" alt />
+            <img src="2.png" alt="feature" />
           </div>
           <div className="feature-content">
             <h4 className="title">Card Payments</h4>
@@ -25,7 +25,7 @@ const Features = () => {
         </div>
         <div className="single-feature">
           <div className="feature-icon">
-            <img src="3.png" alt />
+            <img src="3.png" alt="feature" />
           </div>
           <div className="feature-content">
             <h4 className="title">Easy Returns</h4>

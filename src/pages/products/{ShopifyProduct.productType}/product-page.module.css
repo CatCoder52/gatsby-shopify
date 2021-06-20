@@ -7,6 +7,7 @@
 
 .container {
   padding: var(--size-gutter-raw);
+  margin: 10% 0;
 }
 
 .header {
@@ -28,13 +29,17 @@
 
 .productImageList {
   display: flex;
-  overflow-x: auto;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: 20%;
+  gap: 0;
+  list-style: none;
+  width: 300px;
 }
 
 .productImageListItem {
-  display: flex;
-  flex: 0 0 100%;
-  white-space: nowrap;
+  margin: auto;
+  height: auto;
 }
 
 .scrollForMore {
@@ -157,6 +162,11 @@
 .breadcrumb a:hover {
   color: var(--text-color);
   text-decoration: underline;
+}
+
+li.productImageListItem img:hover {
+  transform: scale(1.5);
+  transition: all 0.5s;
 }
 
 .metaSection {

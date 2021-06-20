@@ -7,7 +7,7 @@ const Testimonials = () => {
       <div className="testimonial">
         <section className="testimonial__one">
           <div className="img-container">
-            <img src="image-daniel.jpg" className="img" loading="lazy" />
+            <img alt='user' src="image-daniel.jpg" className="img" loading="lazy" />
           </div>
           <div className="testimonial__one__desc">
             <h1 className="name">
@@ -28,7 +28,7 @@ const Testimonials = () => {
         </section>
         <section className="testimonial__two">
           <div className="img-container">
-            <img src="image-jonathan.jpg" className="img" loading="lazy" />
+            <img alt='user' src="image-jonathan.jpg" className="img" loading="lazy" />
           </div>
           <div className="testimonial__two__desc">
             <h1 className="name">
@@ -46,7 +46,7 @@ const Testimonials = () => {
         </section>
         <section className="testimonial__three">
           <div className="img-container">
-            <img src="image-jeanette.jpg" className="img" loading="lazy" />
+            <img alt='user' src="image-jeanette.jpg" className="img" loading="lazy" />
           </div>
           <div className="testimonial__three__desc">
             <h1 className="name">
@@ -65,7 +65,7 @@ const Testimonials = () => {
         </section>
         <section className="testimonial__four">
           <div className="img-container">
-            <img src="image-patrick.jpg" className="img" loading="lazy" />
+            <img alt='user' src="image-patrick.jpg" className="img" loading="lazy" />
           </div>
           <div className="testimonial__four__desc">
             <h1 className="name">
@@ -87,7 +87,7 @@ const Testimonials = () => {
         </section>
         <section className="testimonial__five">
           <div className="img-container">
-            <img src="image-kira.jpg" className="img" loading="lazy" />
+            <img alt='user' src="image-kira.jpg" className="img" loading="lazy" />
           </div>
           <div className="testimonial__five__desc">
             <h1 className="name">

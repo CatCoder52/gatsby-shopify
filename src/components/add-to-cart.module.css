@@ -16,5 +16,5 @@
 }
 
 .addToCart:hover {
-  box-shadow: var(--shadow);
+  box-shadow: none;
 }
