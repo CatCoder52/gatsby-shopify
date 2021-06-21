@@ -1,13 +1,12 @@
 .productBox {
   display: grid;
   grid-template-columns: 1fr;
-  column-gap: var(--space-3xl);
   align-items: center;
 }
 
 .container {
   padding: var(--size-gutter-raw);
-  margin: 10% 0;
+  margin: 3% 0;
 }
 
 .header {
@@ -34,7 +33,20 @@
   margin-right: 20%;
   gap: 0;
   list-style: none;
-  width: 300px;
+  width: 100%;
+}
+.productImageListgrid {
+  list-style: none;
+  width: 90%;
+  display: grid;
+  grid-auto-flow: row dense;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 10px;
+  grid-template-areas:
+    "base ."
+    "base .";
+  margin: 0 auto;
 }
 
 .productImageListItem {

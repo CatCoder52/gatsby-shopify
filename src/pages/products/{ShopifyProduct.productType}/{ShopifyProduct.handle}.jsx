@@ -15,6 +15,7 @@ import {
   header,
   productImageWrapper,
   productImageList,
+  productImageListgrid,
   productImageListItem,
   scrollForMore,
   noImagePreview,
@@ -120,7 +121,11 @@ export default function Product({ data: { product, suggestions } }) {
                 aria-label="gallery"
                 aria-describedby="instructions"
               >
-                <ul className={productImageList}>
+                <ul
+                  className={
+                    images.length > 1 ? productImageListgrid : productImageList
+                  }
+                >
                   {images.map((image, index) => (
                     <li
                       key={`product-image-${image.id}`}

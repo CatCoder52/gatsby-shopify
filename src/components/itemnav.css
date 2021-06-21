@@ -14,8 +14,3 @@
   transform: scale(1.1) rotate(3deg);
 }
 
-@media only screen and (max-width:800px) {
-  .single-col .single-box:hover img  {
-    width: 100vw;
-  }
-}

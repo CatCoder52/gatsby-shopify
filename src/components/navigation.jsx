@@ -21,8 +21,14 @@ export function Navigation({ className }) {
         className={navLink}
         to="/search"
         activeClassName={activeLink}
+      ></Link>
+      <Link
+        key="All"
+        className={navLink}
+        to="/search"
+        activeClassName={activeLink}
       >
-        All products
+        All .... Products
       </Link>
       {productTypes.map((name) => (
         <Link

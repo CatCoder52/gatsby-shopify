@@ -21,7 +21,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 6%;
-    gap: 1%;
+    gap: 10px;
 }
 .img-fluid {
     max-width: 100%;
