@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: var(--product-grid);
   place-items: center;
-  gap: var(--size-gutter-raw);
+  gap: 10px;
   padding: 0 var(--size-gutter-raw);
     margin: 4% 6%;
 }
