@@ -1,8 +1,11 @@
 .title {
-  font-size: var(--text-display);
-  font-weight: var(--bold);
-  margin: 0;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 20px 0;
   padding: var(--space-2xl) 0 var(--space-2xl);
+  color: #152040;
+  text-align: center;
+  border-bottom: 1px solid #f0f0f0;
 }
 
 .table {
@@ -32,7 +35,7 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  padding: 0 var(--size-gutter-raw);
+  padding: 7% var(--size-gutter-raw);
 }
 
 .totals,
@@ -52,19 +55,20 @@
 
 .checkoutButton {
   align-items: center;
-  background: var(--primary);
-  border-radius: var(--radius-md);
+  background: #00aa0f;
+  border-radius: var(--radius-sm);
   color: var(--text-color-inverted);
   display: flex;
   font-size: var(--text-md);
   font-weight: var(--semibold);
-  height: var(--size-input);
   justify-content: center;
   line-height: var(--solid);
-  margin: var(--space-3xl) auto var(--space-md);
   padding: var(--space-sm) var(--space-xl);
-  width: max-content;
+  width: auto;
+  height: 2.5rem;
   transition: var(--transition);
+  box-shadow: var(--shadow);
+  margin: 20px 0;
 }
 
 .checkoutButton:hover {

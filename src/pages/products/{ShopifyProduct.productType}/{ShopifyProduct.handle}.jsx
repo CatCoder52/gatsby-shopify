@@ -19,6 +19,7 @@ import {
   productImageListItem,
   scrollForMore,
   noImagePreview,
+  rightgrid,
   optionsWrapper,
   priceValue,
   selectVariant,
@@ -120,6 +121,7 @@ export default function Product({ data: { product, suggestions } }) {
                 role="group"
                 aria-label="gallery"
                 aria-describedby="instructions"
+                className={rightgrid}
               >
                 <ul
                   className={

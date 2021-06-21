@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
+  place-items: center;
 }
 
 .container {
@@ -95,9 +96,15 @@
   border: 0;
 }
 
+.rightgrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .optionsWrapper {
   display: grid;
-  grid-template-columns: var(--product-grid);
+  grid-template-columns: 1fr;
   gap: var(--space-lg);
   padding-bottom: var(--space-lg);
 }
